@@ -11,29 +11,10 @@ const Home = () => {
       <div className="container mt-4">
         <Jumbotron />
         <div className="row mt-4">
-          <Card 
-            title="Card 1"
-            text="LoremLorem ipsum dolor sit, amet consectetur adipisicing elit. Sit soluta quia laboriosam et fuga!"
-            image="https://via.placeholder.com/150"
-            button="Find out More!"
-          />
-          <Card 
-            title="Card 2"
-            text="LoremLorem ipsum dolor sit, amet consectetur adipisicing elit. Sit soluta quia laboriosam et fuga!"
-            image="https://via.placeholder.com/150"
-            button="Find out More!"
-          />
-          <Card 
-            title="Card 3"
-            text="LoremLorem ipsum dolor sit, amet consectetur adipisicing elit. Sit soluta quia laboriosam et fuga!"
-            button="Find out More!"
-          />
-          <Card 
-            title="Card 4"
-            text="LoremLorem ipsum dolor sit, amet consectetur adipisicing elit. Sit soluta quia laboriosam et fuga!"
-            image="https://via.placeholder.com/150"
-            button="Find out More!"
-          />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </div>
       </div>
       <Footer />
